@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="News Category">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_politics"
+                    android:icon="@drawable/politics"
+                    android:title="Politics" />
+
+                <item
+                    android:id="@+id/nav_sports"
+                    android:icon="@drawable/sports"
+                    android:title="Sports" />
+
+
+                <item
+                    android:id="@+id/nav_economy"
+                    android:icon="@drawable/economy"
+                    android:title="Economy" />
+                <item
+                    android:id="@+id/nav_entertaintment"
+                    android:icon="@drawable/entertaintment"
+                    android:title="Entertaintment" />
+                <item
+                    android:id="@+id/nav_health"
+                    android:title="Health"
+                android:icon="@drawable/health"/>
+                <item
+                    android:id="@+id/nav_science"
+                    android:icon="@drawable/science"
+                    android:title="Science and Technology" />
+                <item
+                    android:id="@+id/nav_international"
+                    android:icon="@drawable/international"
+                    android:title="International" />
+                <item
+                    android:id="@+id/nav_miscellanous"
+                    android:icon="@drawable/miscellanous"
+                    android:title="Miscellanous" />
+
+            </menu>
+        </item>
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Extras">
+            <menu>
+                <item
+                    android:id="@+id/nav_calendar"
+                    android:icon="@drawable/calendar"
+                    android:title="Calendar" />
+
+                <item
+                    android:id="@+id/nav_horoscope"
+
+                    android:icon="@drawable/horoscope"
+                    android:title="Horoscope" />
+
+                />
+                <item
+                    android:id="@+id/nav_calculator"
+                    android:icon="@drawable/calculator"
+                    android:title="Calculator" />
+                <item
+                    android:id="@+id/nav_videos"
+                    android:icon="@drawable/videos"
+                    android:title="Videos" />
+                <item
+                    android:id="@+id/nav_photo"
+                    android:icon="@drawable/photos"
+                    android:title="Photo Gallery" />
+
+                <item
+                    android:id="@+id/nav_epaper"
+                    android:icon="@drawable/epaper"
+                    android:title="E-paper" />
+
+
+            </menu>
+        </item>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/aboutus"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/contactus"
+            android:title="Contact Us" />
+
+    </group>
+</menu>

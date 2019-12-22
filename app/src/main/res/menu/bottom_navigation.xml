@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/breakingNews"
+        android:color="@color/white"
+        android:title="Breaking News"
+        android:icon="@drawable/home"
+        />
+    <item
+        android:id="@+id/news"
+        android:color="@color/white"
+        android:title ="News"
+        android:icon ="@drawable/news"
+        />
+    <item
+        android:id="@+id/favourite"
+        android:color="@color/white"
+        android:title ="Favourite"
+        android:icon="@drawable/love"
+        />
+    <item
+        android:id="@+id/profile"
+        android:color="@color/white"
+        android:title="Profile"
+        android:icon = "@drawable/person"
+        />
+
+
+
+
+</menu>
